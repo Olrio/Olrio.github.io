@@ -123,8 +123,22 @@ td, th {
     text-align: center;
 }
 
-#logo_club_and_page {
+#logo_club {
     z-index: 2;
     position: absolute;
     left: 0;
 }
+
+#page_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 380px;
+    height: 70px;
+    top: 200px;
+    left:50px;
+    background-color: #009DE0;
+    color: #ffffff;
+}
+

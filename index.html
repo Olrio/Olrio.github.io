@@ -5,59 +5,355 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Accueil</title>
         <link rel="stylesheet" href="./styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <header></header>
-        <nav></nav>
-        <main>
-            <p>
-                <h3>En juin, venez essayer la gymnastique !</h3>
-                <p>
-                    Pour découvrir une activité, quoi de mieux que l’essayer ?
-                </p>
-                <p>
-                    Les entraîneurs proposent des séances d’essai durant la première semaine de juin.
-                </p>
-                <p>
-                    Ces séances, gratuites et sans engagement, permettent de tester nos activités. Les places sont limitées et les réservations sont indispensables dès maintenant par mail ou téléphone en précisant les noms, prénom et date de naissance du futur gymnaste, ainsi que la discipline désirée.
-                </p>
-            </p>
-            <p>
-                <h3>Inscriptions et réinscriptions saison 2025-2026</h3>
-                <p>
-                    Vous souhaitez rejoindre le club ? Renouveler votre inscription ? Pour tout savoir sur les inscriptions 
-                </p>
-                <p>
-                    A noter : permanences administratives pour le retour des dossiers
-                </p>
-            </p>
-            <div id="licences_supermarches">
-                <div>
-                    <h3>En mai, des aides à la licence chez Intermarché et Super U</h3>
-                    <p>
-                        Cette année encore, les opérations Le Mois du Sport (du 2 au 31 mai) et Partageons
-                        le sport ( du 5 au 31 mai) vous permettent de cumuler des bons pour licence sportive
-                        en faisant vos courses. En tant que partenaire de ces opérations, le club des Enfants
-                        de Cholet accepte ces bons comme moyen de paiement lors des inscriptions.
-                    </p>
-                    <p>
-                        
-                            Magasins Intermarché :<br>
-                            Cholet, Saint André de la Marche, Le May sur Evre et Beaupréau.
-                            Pour tout savoir de cette opération, rendez-vous sur leur site.
-        
-                        
-                        
-                    </p>
-                    <p>
-                        Magasin Super U : <br>
-                        Celui de Saint Macaire en Mauges uniquement.
-                    </p>
+        <div id="test"></div>
+        <script>
+            $(document).ready(function () {
+                $("#test").load("head.html");
+            });
+        </script>
+         
+        <header>
+            <div class="accueil_cote_a_cote" id="bandeau_superieur">
+                <div id="logo_club_and_page">
+                    <div><img src="./media/logo.png" alt=""></div>
+                    <h1>Accueil</h1>
                 </div>
-                <div>
-                    <img src="./media/licence_supermarche.png" alt="">
+                <div class="accueil_cote_a_cote">
+                    <img src="./media/patchwork_header.png" alt="" id="patchwork_header">
+                    <div class="carousel">
+                        <img src="./media/logo_Cholet.png" alt="" width="344" height="100" id="logo1" class="logos">
+                        <img src="./media/logo_AIXAM.png" alt="" width="100" height="100" id="logo2" class="logos">
+                        <img src="./media/logo_Culture_Velo.png" alt="" width="142" height="100" id="logo3" class="logos">
+                        <img src="./media/logo_Optique_PK3.png" alt="" width="286" height="100" id="logo4" class="logos">
+                        <img src="./media/logo_BAUDON.png" alt="" width="294" height="100" id="logo5" class="logos">
+                        <img src="./media/logo_Brioche_Gelineau.png" alt="" width="143" height="100" id="logo6" class="logos">
+                        <img src="./media/logo_Boucherie_Choletaise.png" alt="" width="368" height="100" id="logo7" class="logos">
+                        <img src="./media/logo_Colbert.png" alt="" width="207" height="100" id="logo8" class="logos">
+                        <img src="./media/logo_Kangourou_kids.png" alt="" width="337" height="100" id="logo9" class="logos">
+                        <img src="./media/logo_Autre_Usine.png" alt="" width="198" height="100" id="logo10" class="logos">
+                        <img src="./media/logo_Vendée_Véhicules_Aménagement.png" alt="" width="269" height="100" id="logo11" class="logos">
+                        <img src="./media/logo_BUT.png" alt="" width="100" height="100" id="logo12" class="logos">
+                        <img src="./media/logo_RETIF.png" alt="" width="285" height="100" id="logo13" class="logos">
+                        <img src="./media/logo_Fleuron_des_Mauges.png" alt="" width="67" height="100" id="logo14" class="logos">
+                        <img src="./media/logo_Pizza_Tempo.png" alt="" width="104" height="100" id="logo15" class="logos">
+                        <img src="./media/logo_Dolce_Vita.png" alt="" width="199" height="100" id="logo16" class="logos">
+                        <img src="./media/logo_Ministere_Sports.png" alt="" width="78" height="100" id="logo17" class="logos">
+                    </div>
                 </div>
+                <div id="MAJ"><p>Mise à jour du 4 juin 2025</p></div>
             </div>
-        </main>
+        </header>
+        <span id="haut_de_la_page"></span>
+        <div class="main_disposition">
+            <nav id="menu">
+                <div>Accueil</div>
+                <div>Le Club</div>
+                <div>Bénévoles</div>
+                <div>Compétitions</div>
+                <div>Renseignements</div>
+                <div>Revue de presse</div>
+                <div>Médiathèque</div>
+                <div>Partenariat</div>
+            </nav>
+            <main>
+                
+                <p>
+                    <h3>En juin, venez essayer la gymnastique !</h3>
+                    <p>
+                        Pour découvrir une activité, quoi de mieux que l’essayer ?
+                    </p>
+                    <p>
+                        Les entraîneurs proposent des séances d’essai durant la première semaine de juin.
+                    </p>
+                    <p>
+                        Ces séances, gratuites et sans engagement, permettent de tester nos activités. Les places sont limitées et les réservations sont indispensables dès maintenant par mail ou téléphone en précisant les noms, prénom et date de naissance du futur gymnaste, ainsi que la discipline désirée.
+                    </p>
+                </p>
+                <p>
+                    <h3>Inscriptions et réinscriptions saison 2025-2026</h3>
+                    <p>
+                        Vous souhaitez rejoindre le club ? Renouveler votre inscription ? Pour tout savoir sur les inscriptions 
+                    </p>
+                    <p>
+                        A noter : permanences administratives pour le retour des dossiers
+                    </p>
+                </p>
+                <div id="licences_supermarches">
+                    <div>
+                        <h3>En mai, des aides à la licence chez Intermarché et Super U</h3>
+                        <p>
+                            Cette année encore, les opérations Le Mois du Sport (du 2 au 31 mai) et Partageons
+                            le sport ( du 5 au 31 mai) vous permettent de cumuler des bons pour licence sportive
+                            en faisant vos courses. En tant que partenaire de ces opérations, le club des Enfants
+                            de Cholet accepte ces bons comme moyen de paiement lors des inscriptions.
+                        </p>
+                        <p>
+                            
+                                Magasins Intermarché :<br>
+                                Cholet, Saint André de la Marche, Le May sur Evre et Beaupréau.
+                                Pour tout savoir de cette opération, rendez-vous sur leur site.
+            
+                            
+                            
+                        </p>
+                        <p>
+                            Magasin Super U : <br>
+                            Celui de Saint Macaire en Mauges uniquement.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./media/licence_supermarche.png" alt="">
+                    </div>
+                </div>
+                <div id="finales_departementales">
+                    <div>
+                        <h3>Finales départementales</h3>
+                        <p>
+                            3 gymnastes et 1 équipe des Enfants de Cholet sont montées sur les podiums à Saumur.
+                        </p>
+                        <p>
+                            Félicitations à Marie, 1ère en Fed A 16 ans et plus, Blanche et Lili, 1ère et 3ème en Fed A 10-11, Mia, Calie, Téa et Mélyne, 1ères en Fed B 7-9 ans.
+                        </p>
+                        <p>
+                            Nous profitons de ces résultats pour mettre à l’honneur et remercier chaleureusement l’ensemble des cadres et juges bénévoles pour leur engagement tout au long de la saison. A l’image de Marie, Sophie, Adeline, Capucine et Lucile qui assurent 2 à 3 entraînements hebdomadaires, Sophie, Lucile et Emma qui officient également en tant que juges, tous ces bénévoles sont indispensables pour l’accompagnement des gymnastes en compétition. Le club a beaucoup de chance de les compter parmi ses licenciés !
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./media/finales_departementales.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Nationale 1, 2, 3, Fédérale A, individuels... en route pour les France</h3>
+                        <p>
+                            Avec 13 Individuels, 2 ensembles, 2 équipes masculines et 4 féminines, les qualifications 2025 sont exceptionnelles. 39 gymnastes des Enfants de Cholet prendront part aux finales nationales !
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./media/Champ_France_indiv.png" alt="">
+                    </div>
+                    <p>
+                        Maylis, Lucile, Kimy, Flora, Faustine, Floriane, Emy, Léna, Clélia, Alice, Ynaïa, Lily Rose et Saengchaë iront porter les couleurs du club à Oyonnax du 2 au 4 mai pour les championnats de France individuels.
+                    </p>
+                    <div class="accueil_cote_a_cote">
+                        <div class="GR_France GR_photo1"><img src="./media/Champ_France_GR_FedA17.png" alt=""></div>
+                        <p class="GR_France GR_texte2">En gymnastique rythmique, <br>
+                            Inès, Romane, Louise et Julie <br>
+                            (ensemble Fed A 17 ans et moins),<br>
+                            Kim, Ombeline, Olga, Anaé et Mila <br>
+                            (ensemble Fed A 13 ans et moins) <br>
+                            ont rendez-vous à Rennes le 14 juin pour le Trophée fédéral.</p>
+                        <div class="GR_France GR_photo3"><img src="./media/Champ_France_GR_FedA13.png" alt=""></div>
+                    </div>
+                    <div class="accueil_cote_a_cote">
+                        <div><img src="./media/Champ_France_GAM.png" alt=""></div>
+                        <div>
+                            <p>En gymnastique artistique masculine, direction Mulhouse pour les équipes Fed A 12 ans et plus.</p>
+                            <p>Louison, Archibald, Simon, Nicolas, Ronan, Saengchaë, Swan, Jules, Elwan, Timéo et Joshua <br>
+                                participeront au Trophée fédéral les vendredi 9 et dimanche 11 mai en Fédérale A2 et Fédérale A4.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div><img src="./media/Champ_France_GAF_equipes.png" alt=""></div>
+                        <p>En gymnastique artistique féminine, Emma, Flora, Maylis, Kimy et Anjali <br>     
+                            ont rendez-vous à Saint Quentin en Yvelines où elles matcheront le samedi 24 mai en Nationale 3 12 ans et plus.</p>
+                        <p>Les plus jeunes équipes rejoindront les GR à Rennes pour les Championnats de France du 13 au 15 juin. <br>
+                            Chez les 12-15 ans, Clélia, Alice, Floriane et Léa se sont brillamment qualifiées en Nationale 1. <br>
+                            Chez les 10-13, Lilou, Lily Rose, Nina, Ynaïa, Emy, Faustine, Anna, Léna et Romane évolueront en Nationale 2 et Nationale 3.</p>
+                    </div>
+                    <div>
+                        <p>Félicitations à tous ces gymnastes et à leurs entraîneurs, Mélissa, Nicolas, Béa et Fab. <br>
+                        Un grand merci aux juges et aux familles qui les accompagnent tout au long de la saison.</p>
+                        <p>Merci à tous pour votre dynamisme, votre engagement et vos sourires. Vous nous faites vibrer !</p>
+                    </div>
+                </div>
+                <div class="accueil_cote_a_cote">
+                    <div><a href="https://ker-crea.fr/384-les-enfants-de-cholet" target="_blank" rel="noopener noreferrer"><img src="./media/Ker_crea_boutique.png" alt=""></a></div>
+                    <div>
+                        <p>Elle vient d’ouvrir et c’est une occasion idéale de faire plaisir en arborant les couleurs du club !</p>
+                        <p>Short, legging, claquettes, sac à dos, gourde, veste du club... Tous portent le logo des Enfants de Cholet et certains sont également personnalisables au nom du gymnaste. </p>
+                        <p>Pour plus de simplicité, vous pouvez même demander une livraison à domicile ou dans un point relais. </p>
+                        <p>Il s’agit d’une grande première pour nous alors n’hésitez pas à nous contacter pour partager votre expérience concernant la boutique ou les produits.</p>
+                        <p>Nous vous espérons nombreux à surfer et commander sur cette boutique club !</p>
+                    </div>
+                </div>
+                <div>
+                <div class="accueil_cote_a_cote">
+                    <div>
+                        <h3>Indisponibilité durable de la salle Turpault</h3>
+                        <h4>Cause et conséquences</h4>
+                        <p>C’est un champignon qui est à l’origine de la fermeture de la salle historique du club. Tout à fait inoffensif pour la santé des humains, cet organisme, aussi microscopique soit-il,  est très friand de bois et s’est attaqué au parquet de la salle avec voracité. 
+                            Celui-ci, fragilisé, pourrait s’affaisser et c’est donc par mesure de sécurité que la salle a été fermée.</p>
+                    </div>
+                    <div><img src="./media/Salle_Turpault_champignons.png" alt=""></div>
+                </div>
+                <p>Pour le secteur Petite Enfance, Turpault, c’est la salle de Cécile mais son rôle ne s’arrêtait pas là...
+    14 groupes et 230 gymnastes fréquentaient cette salle chaque semaine, encadrés par 3 salariées et 25 bénévoles. Au total, une moitié des effectifs du club se retrouvaient « à la porte ».</p>
+                <p>Comment faire pour que tous ces groupes puissent continuer à s’entraîner quand on sait combien les équipements sportifs de la ville sont saturés ? Avec le soutien du service des sports et l’énergie phénoménale déployée par Cécile, Patricia et Fabienne, des propositions ont pu être faites aux licenciés de l’ensemble des groupes. Elles ne sont pas satisfaisantes pour tous, ni pour le club, mais ont le mérite d’exister. </p>
+                <h4>Perspectives</h4>
+                <p>Les dernières semaines ont été très éprouvantes et les turbulences ne sont pas achevées. Nous tentons encore de trouver des solutions, au cas par cas,  pour les gymnastes qui ne peuvent pas s’adapter aux nouveaux jours, créneaux et lieux d’entraînement. </p>
+                <p>Il faut enfin, dès maintenant, envisager la rentrée prochaine, sans la salle Turpault. Heureusement, nous avons confiance en la ville de Cholet pour nous aider à trouver une solution satisfaisante pour tous dans l’attente de la réouverture de la salle Turpault.</p>
+                </div>
+                <div>
+                    <h3>Un mois de mars riche de bons résultats</h3>
+                    <p>Les équipes et individuels du club ont brillé lors des compétitions régionales de gymnastique artistique : 22 podiums dont 9 titres régionaux, 12 équipes et 28 individuels qualifiés à ce jour.</p>
+                    <p>La gymnastique rythmique n’est pas en reste avec 4 podiums et 7 qualifications pour les ensembles.
+
+    </p>
+                    <p>Bravo à tous les gymnastes et à leurs entraîneurs !</p>
+                    <div><img src="./media/Résultats_mars_2025.png" alt=""></div>
+                </div>
+                <div>
+                    <h3>23 février, récompenses départementales aux Ponts de Cé</h3>
+                    <p>Les Enfants de Cholet étaient nombreux pour recevoir leur récompense départementale pour avoir été qualifiés aux finales nationales 2024. Avec 10 équipes/ensembles et 7 individuels qualifiés, ce sont plus de 50 gymnastes qui ont été invités.</p>
+                    <p>Cela ne s’arrête pas là puisque le département tient aussi à récompenser les acteurs de la gymnastique. Là encore, le club n’est pas en reste, jugez plutôt :</p>
+                    <ul>
+                        <li>Joanne Dubillot, major de promotion de l’examen de juge N1 GR </li>
+                        <li>Emma Diguet, formation d’aide animateur </li>
+                        <li>Yves Menanteau, médaille spéciale pour l’engagement bénévole avec plus de 40 années de bénévolat dont 25 passées au comité départemental !</li>
+                    </ul>
+                    <p>Félicitations à tous ces jeunes...et moins jeunes !</p>
+                    <div><img src="./media/récompenses_Ponts_de_Cé.png" alt=""></div>
+                </div>
+                <div>
+                    <div class="accueil_cote_a_cote">
+                        <div><img src="./media/GR_dptmt_9fevrier_affiche.png" alt=""></div>
+                        <div><img src="./media/GR_dptmt_9fevrier_groupe.png" alt=""></div>
+                    </div>
+                    <div class="accueil_cote_a_cote">
+                        <div>
+                            <h3>Compétition départementale GR</h3>
+                            <p>Le 9 février, la salle Grégoire a vu s’envoler les cerceaux, rubans, ballons, cordes et massues d’ensembles rivalisant de dextérité. Cette première compétition a offert aux gymnastes et entraîneurs une évaluation utile pour déterminer les éléments à parfaire en vue des prochaines étapes de la saison. Encouragés par un public enthousiaste, les 8 ensembles du club ont réalisé de bons passages. Ils se rendront à Angers, les 22 et 23 mars prochains, pour une compétition régionale à l’enjeu qualificatif majeur.</p>
+                            <p>Félicitations à toutes ! Merci aux juges et aux bénévoles de l’organisation.</p>
+                        </div>
+                        <div><img src="./media/GR_dptmt_9fevrier_melissa_et_petites.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="accueil_cote_a_cote">
+                    <div>
+                        <h3>La moisson des individuels Performance et Fed A</h3>
+                        <p>Les 25 et 26 janvier, 500 gymnastes du département avaient rendez-vous à la salle Joachim Du Bellay où le club organisait la première compétition individuelle de la saison. Tous venaient chercher leur qualification pour la finale régionale et un éventuel titre départemental. </p>
+                        <p>25 podiums, 15 titres et de très bons classements sont venus récompenser les 61 gymnastes des Enfants de Cholet et leurs entraîneurs qui les ont préparés pour cette échéance avec efficacité.</p>
+                        <p>Les qualifications pour l’étape régionale ne sont pas encore officielles mais elles seront certainement nombreuses. Félicitations à tous et un grand merci à tous les bénévoles qui ont contribué à l’organisation !</p>
+                    </div>
+                    <div><img src="./media/dpt_GAM_GAF_25_26_janvier.png" alt=""></div>
+                </div>
+                <div>
+                    <h3>Résultats d'examen des juges GR</h3>
+                    <p>Félicitations à Joane, Louise, Clémence et Maëlie qui ont obtenu leur diplôme de juge niveau 1 et à Romane qui officiera désormais en tant que juge niveau 2 <br>
+                    Un grand merci à toutes les candidates pour leur engagement qui permettra au club de mieux répondre aux exigences fédérales concernant la disponibilité de juges du club pour les compétitions.</p>
+                    <div><img src="./media/juges_GR.png" alt=""></div>
+                </div>
+                <div class="accueil_cote_a_cote">
+                    <div>
+                        <h3>Gala 2024, une grande fête de fin d’année !  </h3>
+                        <p>1200 spectateurs, 340 gymnastes, 100 benévoles (entraîneurs, aide entraîneurs, référents et acteurs de la logistique) pour un gala inspiré par des personnalités venues de tous les horizons.</p>
+                        <p>Bravo aux gymnastes et à leurs entraîneurs pour la qualité de leurs numéros, merci aux bénévoles qui ont tout donné et merci au public pour son soutien.</p>
+                        <p>En attendant les photos et vidéos qui enrichiront prochainement la médiathèque, un petit résumé en images signé Emilie </p>
+                    </div>
+                    <div><img src="./media/gala_2024.png" alt=""></div>
+                </div>
+                <div>
+                    <div><img src="./media/Téléthon1.png" alt=""></div>
+                    <div>
+                        <h3>6 décembre, salle Grégoire</h3>
+                        <p>Cette soirée, organisée avec le concours de plusieurs associations de Cholet, a été une vraie réussite en dépit du décalage d'une semaine par rapport au Téléthon national. <br>
+                        Les bénévoles des Enfants de Cholet ont apporté leur contribution avec enthousiasme. De leur côté, Mélissa et son équipe ont animé la gymnastique rythmique avec beaucoup de succès. Merci à tous !</p>
+                    </div>
+                    <div><img src="./media/Téléthon2.png" alt=""></div>
+                </div>
+                <div>
+                    <h3>Formation des juges</h3>
+                    <p>Suite aux examens, nous avons le plaisir de compter 4 nouveaux juges (Emma et Rose en GAF, Elwan et Timéo en GAM) qui ont obtenu le diplôme de niveau 1. Bravo à tous les quatre.</p>
+                    <p>Félicitations également à Isaure (en GAF) et Ronan (en GAM) pour l'obtention de leur niveau 2.</p>
+                    <p>La formation GR est achevée mais les candidates aux niveaux 1 et 2 n'ont pas encore passé leur examen. A suivre prochainement sur cette page...</p>
+                    <p>Merci à tous pour votre engagement qui mérite la reconnaissance de tous les compétitifs car, sans juge, pas de compétition possible pour les individuels, équipes et ensembles des Enfants de Cholet...</p>
+                    <div><img src="./media/formation_des_juges.png" alt=""></div>
+                </div>
+                <div>
+                    <h3>Cholet rêve de sport</h3>
+                    <p>Le 29 novembre 2024, la ville a récompensé les sportifs qui se sont illustrés lors de la saison 2024 et les Enfants de Cholet ont été largement mis à l'honneur.</p>
+                    <p>Représentée par Anjali Xiong et Emma Joubert, l'équipe féminine qui a participé au championnat de France en DN2, ainsi que deux individuelles, Alice Plard, médaillée de bronze au championnat de France en Nationale 11 ans et Clélia Ibanez 5<sup>ème</sup> au championnat de France Elite Avenir 11 ans, ont été récompensées lors de cette soirée.</p>
+                    <div><img src="./media/Cholet_reve_de_sport.png" alt=""></div>
+                    <p>Et cerise sur le gâteau, Clélia a été élue sportive de l'année !</p>
+                    <p>Un grand bravo à toutes ces gymnastes et à leurs entraineurs, Béatrice Raguenès et Fabienne Piveteau.</p>
+                </div>
+                <div>
+                    <h3>C'est parti pour la saison 2024-2025 !</h3>
+                    <p>Avec plus de 460 licenciés à ce jour, les inscriptions se terminent et l'activité n'a pas manqué durant les quelques semaines qui se sont écoulées depuis la rentrée. Enregistrement des dossiers d'inscriptions, finalisation des plannings d'entrainement, mise en place des projets de l'année, participations aux actions de la ville, démarrage des formations pour nos cadres et nos juges, bourse aux équipements, stages pour nos gymnastes sont autant d'actions variées qui mobilisent grandement professionnels et bénévoles. <br>
+                    Nous ne pouvons qu'être reconnaissants pour cet investissement de tous !</p>
+                    <div class="accueil_cote_a_cote">
+                        <ul>
+                            <li>08/09 - Forum des associations</li>
+                            <li>15/09 - Sport en famille</li>
+                            <li>22/09 - Formation des cadres de GAF</li>
+                            <li>12/10 - Bourse aux équipements</li>
+                            <li>13/10 - Début des formations de juges</li>
+                            <li>13/10 - Compétition départementale GR</li>
+                            <li>19-20/10 - Formation de Mélissa</li>
+                            <li>21-22/10 - Stage région GAF</li>
+                        </ul>
+                        <div><img src="./media/Bourse_aux_equipements.png" alt=""></div>
+                    </div>
+                    <div><img src="./media/saison_2024_2025.png" alt=""></div>
+                    <p>Depuis le 13 octobre et jusqu'au mois de janvier, ce sont 34 juges des différentes disciplines qui suivent des formations ou des recyclages (mise à jour des connaissances pour le nouveau cycle olympique). Un bel exemple d'engagement pour la bonne tenue des compétitions.</p>
+                    <p>Pour la gymnastique rythmique, la saison compétitive a déjà commencé pour les individuelles qui ont réalisé de belles prestations lors de la compétition départementale.</p>
+                    <p>Désormais, un événement important se prépare: le gala. Il aura lieu le 21 décembre et mobilise déjà toutes les énergies... Réservez votre date !</p>
+                </div>
+                <div>
+                    <h3>La nouvelle saison est lancée</h3>
+                    <p>Ce site est à votre disposition pour découvrir la vie trépidante du club... </p>
+                    <h4>Un agenda établi et une équipe heureuse de vous accueillir</h4>
+                    <p>Retrouvez le calendrier des évènements et les acteurs de la saison dans la rubrique Le club</p>
+                    <h4>Des rubriques et réseaux pour vous informer </h4>
+                    <ul>
+                        <li>Compétitions pour consulter le calendrier, les résultats et le suivi des gymnastes</li>
+                        <li>Revue de presse pour lire les derniers articles et tous ceux parus depuis 2009</li>
+                        <li>Médiathèque pour retrouver photos et vidéos des évènements passés</li>
+                        <li>Bénévoles si vous souhaitez nous aider ponctuellement ou plus régulièrement</li>
+                        <li>Partenariat si vous souhaitez soutenir notre association loi 1901</li>
+                        <li>en bas de cette page pour accéder aux archives des saisons passées</li>
+                        <li>sur la page Facebook pour l’actualité en « temps réel » </li>
+                        <li>et sur le compte Instagram pour découvrir les publications</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Saisons précédentes en archives</h3>
+                    <table>
+                        <tr>
+                            <th>2023-2024</th>
+                            <th>2022-2023</th>
+                            <th>2021-2022</th>
+                            <th>2019-2021</th>
+                        </tr>
+                        <tr>
+                            <th>2018-2019</th>
+                            <th>2017-2018</th>
+                            <th>2016-2017</th>
+                            <th>2015-2016</th>
+                        </tr>
+                        <tr>
+                            <th>2014-2015</th>
+                            <th>2013-2014</th>
+                            <th>2012-2013</th>
+                            <th>2011-2012</th>
+                        </tr>
+                        <tr>
+                            <th>2010-2011</th>
+                            <th>2009-2010</th>
+                            <th>2008-2009</th>
+                            <th>2007-2008</th>
+                        </tr>
+                    </table>
+                </div>
+                <div><a href="#haut_de_la_page">Retour en haut de la page</a></div>
+            </main>
+        </div>
+        <footer>
+            <div>Pour nous contacter: Les Enfants de Cholet - 48, rue des Bons Enfants - 49300 CHOLET - Tél.: 02 41 75 54 91 - Mail: <a href="mailto:enfcholetgym@free.fr">enfcholetgym@free.fr</a></div>
+        </footer>
     </body>
 </html>

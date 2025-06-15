@@ -14,6 +14,7 @@
             <script>
                 $(document).ready(function () {
                     $("#header").load("header.html");
+                    console.log(document.getElementById("page_name"));
                 });
             </script> 
             <p>
@@ -312,7 +313,6 @@
         </footer>
         <script>
             let title = document.getElementsByTagName('title')[0].textContent
-            document.getElementById("page_name").textContent = title
         </script>
     </body>
 </html>

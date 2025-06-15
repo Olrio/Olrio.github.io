@@ -15,9 +15,6 @@
                 $(document).ready(function () {
                     $("#header").load("header.html");
                 });
-
-                let title = document.getElementsByTagName('title')[0].textContent
-                document.getElementById("page_name").textContent = title
             </script> 
             <p>
                 <h3>En juin, venez essayer la gymnastique !</h3>
@@ -313,5 +310,9 @@
         <footer>
             <div>Pour nous contacter: Les Enfants de Cholet - 48, rue des Bons Enfants - 49300 CHOLET - Tél.: 02 41 75 54 91 - Mail: <a href="mailto:enfcholetgym@free.fr">enfcholetgym@free.fr</a></div>
         </footer>
+        <script>
+            let title = document.getElementsByTagName('title')[0].textContent
+            document.getElementById("page_name").textContent = title
+        </script>
     </body>
 </html>

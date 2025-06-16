@@ -1,5 +1,32 @@
-#licences_supermarches {
+#photo_licence_supermarche {
+    padding: 20px 20px 10px 20px;
+}
+
+#photo_licence_supermarche img:hover {
+    width: 280px;
+    height: 428px;
+}
+
+#photo_finales_departementales {
     display: flex;
+    justify-content: center;
+}
+
+#photo_finales_departementales img {
+    margin-bottom: 10px;
+}
+
+#Champ_France_indiv {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.separator{
+    height: 2px;
+    background-color: #ef850d;
+    width: 60%;
+    margin:10px auto;
 }
 
 .GR_France {
@@ -28,6 +55,22 @@
     height: 140px;
 }
 
+#Champ_France_GAM {
+    margin-right: 15px;
+}
+
+#texte_ker_crea {
+    padding-left: 15px;
+}
+
+#Salle_Turpault_champignons_texte h3 {
+    margin-top: 0;
+}
+
+#Salle_Turpault_champignons_photo {
+    padding: 10px;
+}
+
 .accueil_cote_a_cote {
     display: flex;
 }
@@ -42,7 +85,7 @@ nav {
 
 main {
     margin-left: 15px;
-    margin-top: 300px;
+    margin-top: 330px;
 }
 
 header {
@@ -59,10 +102,11 @@ table {
     border-collapse: collapse;
 }
 
-td, th {
+tr, th {
     border: 1px solid black;
     width: 8vw;
     height: 4vh;
+    font-weight: normal;
 }
 
 
@@ -110,6 +154,7 @@ td, th {
     justify-content: center;
     position: absolute;
     left: 0;
+    margin-bottom: 50px;
 }
 
 #MAJ {
@@ -133,7 +178,7 @@ td, th {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: 380px;
     height: 70px;
     top: 160px;
@@ -142,3 +187,33 @@ td, th {
     color: #ffffff;
 }
 
+.presentation_du_club {
+    align-items: center;
+}
+
+.club_texte {
+    padding-right: 30px;
+    width: 80%;
+}
+
+.club_video_link {
+    width: 20%;
+    text-align: center;
+}
+
+h3 {
+    color: #ef850d;
+}
+
+.h3_no_top_margin {
+    margin-top: 0;
+}
+
+.article {
+    border-left: 2px solid #ef850d;
+    border-width: 50%;
+    border-bottom: 2px solid #ef850d;
+    padding-left: 10px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}

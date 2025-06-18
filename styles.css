@@ -144,7 +144,7 @@ tr, th {
         }
 
 
-body:has(.carousel_container:hover) #carousel {
+body:has(#carousel_container:hover) #carousel {
     animation-play-state: paused;
 }
 

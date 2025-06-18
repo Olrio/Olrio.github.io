@@ -1,4 +1,7 @@
 // Make the DIV element draggable:
+
+console.log('carousel.js is executed')
+
 dragElement(document.getElementById("carousel"));
 
 function dragElement(elmnt) {

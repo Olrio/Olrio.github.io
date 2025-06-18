@@ -100,6 +100,7 @@ header {
 
 table {
     border-collapse: collapse;
+    margin-bottom: 15px;
 }
 
 tr, th {
@@ -109,15 +110,42 @@ tr, th {
     font-weight: normal;
 }
 
+.carousel_container {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 4000px;
+    height: 120px;
+}
 
 .carousel {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
     width: 4000px;
-    margin: auto;
     height: 100px;
     overflow: hidden;
     background-color: #ffffff;
-    animation: bandeau_defilant 40s linear infinite;
+    animation: scroll-left 20s linear infinite;
     z-index: 0;
+}
+
+@keyframes scroll-left {
+            0% {
+                transform: translateX(100vw);
+            }
+
+            100% {
+                transform: translateX(-4000px);
+            }
+        }
+
+
+body:has(.carousel_container:hover) #carousel {
+    animation-play-state: paused;
 }
 
 #patchwork_header {
@@ -134,20 +162,6 @@ tr, th {
     margin: 0;
     
 }
-
-.carousel:hover {
-    animation-play-state: paused;
-}
-
-@keyframes bandeau_defilant {
-        from {
-    translate: 160vw;
-  }
-
-  to {
-    translate: -120vw;
-  }
-    }
 
 #bandeau_superieur {
     width: 100%;
@@ -216,4 +230,17 @@ h3 {
     padding-left: 10px;
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
+}
+
+.link_back_to_top {
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 2px solid #ef850d;
+    text-align: center;
 }

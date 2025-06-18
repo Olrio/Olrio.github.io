@@ -110,7 +110,7 @@ tr, th {
     font-weight: normal;
 }
 
-.carousel_container {
+#carousel_container {
     position:absolute;
     top: 10px;
     left: 10px;
@@ -121,7 +121,7 @@ tr, th {
     height: 120px;
 }
 
-.carousel {
+#carousel {
     display: inline-block;
     position: absolute;
     top: 15px;

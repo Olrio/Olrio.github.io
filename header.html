@@ -6,14 +6,14 @@
         <img src="./media/patchwork_header.png" alt="" id="patchwork_header">
         <div id="carousel_container">
             <div id="carousel">
-                <a href="https://www.cholet.fr/"><img src="./media/logo_Cholet.png" alt="" width="344" height="100" id="logo1" class="logos"></a>
-                <a href="http://www.sans-permis-cholet.fr/"><img src="./media/logo_AIXAM.png" alt="" width="100" height="100" id="logo2" class="logos"></a>
-                <a href="https://www.culturevelo.com/-Cholet-"><img src="./media/logo_Culture_Velo.png" alt="" width="142" height="100" id="logo3" class="logos"></a>
-                <a href="https://www.opticien-lunetier-cholet.fr/"><img src="./media/logo_Optique_PK3.png" alt="" width="286" height="100" id="logo4" class="logos"></a>
-                <a href="https://baudonsa.com/"><img src="./media/logo_BAUDON.png" alt="" width="294" height="100" id="logo5" class="logos"></a>
-                <a href="https://www.brioche-gelineau.fr/"><img src="./media/logo_Brioche_Gelineau.png" alt="" width="143" height="100" id="logo6" class="logos"></a>
-                <a href="https://www.boucheriecholetaise.fr/"><img src="./media/logo_Boucherie_Choletaise.png" alt="" width="368" height="100" id="logo7" class="logos"></a>
-                <a href="https://www.colbertgroupe.com/"><img src="./media/logo_Colbert.png" alt="" width="207" height="100" id="logo8" class="logos"></a>
+                <a href="https://www.cholet.fr/" target="_blank"><img src="./media/logo_Cholet.png" alt="" width="344" height="100" id="logo1" class="logos"></a>
+                <a href="http://www.sans-permis-cholet.fr/" target="_blank"><img src="./media/logo_AIXAM.png" alt="" width="100" height="100" id="logo2" class="logos"></a>
+                <a href="https://www.culturevelo.com/-Cholet-" target="_blank"><img src="./media/logo_Culture_Velo.png" alt="" width="142" height="100" id="logo3" class="logos"></a>
+                <a href="https://www.opticien-lunetier-cholet.fr/" target="_blank"><img src="./media/logo_Optique_PK3.png" alt="" width="286" height="100" id="logo4" class="logos"></a>
+                <a href="https://baudonsa.com/" target="_blank"><img src="./media/logo_BAUDON.png" alt="" width="294" height="100" id="logo5" class="logos"></a>
+                <a href="https://www.brioche-gelineau.fr/" target="_blank"><img src="./media/logo_Brioche_Gelineau.png" alt="" width="143" height="100" id="logo6" class="logos"></a>
+                <a href="https://www.boucheriecholetaise.fr/" target="_blank"><img src="./media/logo_Boucherie_Choletaise.png" alt="" width="368" height="100" id="logo7" class="logos"></a>
+                <a href="https://www.colbertgroupe.com/" target="_blank"><img src="./media/logo_Colbert.png" alt="" width="207" height="100" id="logo8" class="logos"></a>
                 <img src="./media/logo_Kangourou_kids.png" alt="" width="337" height="100" id="logo9" class="logos">
                 <img src="./media/logo_Autre_Usine.png" alt="" width="198" height="100" id="logo10" class="logos">
                 <img src="./media/logo_Vendée_Véhicules_Aménagement.png" alt="" width="269" height="100" id="logo11" class="logos">
@@ -29,13 +29,61 @@
     </div>
     <div id="MAJ"><p>Mise à jour du 4 juin 2025</p></div>
     <nav id="menu" class="accueil_cote_a_cote">
-        <div><a href="./index.html">Accueil</a></div>
-        <div><a href="./le_club.html">Le Club</a></div>
-        <div>Bénévoles</div>
-        <div>Compétitions</div>
-        <div>Renseignements</div>
-        <div>Revue de presse</div>
-        <div>Médiathèque</div>
-        <div>Partenariat</div>
+        <button class="nav_button" id="accueil_button"><a href="./index.html">Accueil</a>
+            <script>
+             if (document.title == "Accueil") {
+             document.getElementById("accueil_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="le_club_button"><a href="./le_club.html">Le Club</a>
+            <script>
+             if (document.title == "Le Club") {
+             document.getElementById("le_club_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="bénévoles_button"><a href="./benevoles.html">Bénévoles</a>
+            <script>
+             if (document.title == "Bénévoles") {
+             document.getElementById("bénévoles_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="compétitions_button"><a href="./competitions.html">Compétitions</a>
+            <script>
+             if (document.title == "Compétitions") {
+             document.getElementById("compétitions_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="renseignements_button"><a href="c">Renseignements</a>
+            <script>
+             if (document.title == "Renseignements") {
+             document.getElementById("renseignements_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="revue_de_presse_button"><a href="d">Revue de presse</a>
+            <script>
+             if (document.title == "Revue de presse") {
+             document.getElementById("revue_de_presse_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="médiathèque_button"><a href="e">Médiathèque</a>
+            <script>
+             if (document.title == "Médiathèque") {
+             document.getElementById("médiathèque_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
+        <button class="nav_button" id="partenariat_button"><a href="f">Partenariat</a>
+            <script>
+             if (document.title == "Partenariat") {
+             document.getElementById("partenariat_button").style.backgroundColor = "blue";
+             }
+            </script>
+        </button>
     </nav>
 </div>

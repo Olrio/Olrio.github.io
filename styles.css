@@ -191,11 +191,47 @@ body:has(#carousel_container:hover) #carousel {
     z-index: 2;
     position: absolute;
     right: 50px;
-    top: 140px;
+    top: 160px;
     width: 250px;
     height: 50px;
     background-color: #ffffff;
     text-align: center;
+}
+
+#logo_FFGym {
+    z-index: 2;
+    position: absolute;
+    right: 600px;
+    top: 160px;
+    width: 100px;
+    height: 50px;
+}
+
+#logo_label_BabyGym {
+    z-index: 2;
+    position: absolute;
+    right: 500px;
+    top: 140px;
+    width: 80px;
+    height: 80px;
+}
+
+#Facebook_link {
+    z-index: 2;
+    position: absolute;
+    right: 400px;
+    top: 140px;
+    width: 80px;
+    height: 80px;
+}
+
+#Instagram_link {
+    z-index: 2;
+    position: absolute;
+    right: 300px;
+    top: 140px;
+    width: 80px;
+    height: 80px;
 }
 
 #logo_club {

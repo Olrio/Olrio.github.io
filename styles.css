@@ -300,3 +300,25 @@ footer {
     border-top: 2px solid #ef850d;
     text-align: center;
 }
+
+#map_salles li{
+    margin-bottom: 10px;
+}
+
+#a_savoir_avant_l_inscription h4 {
+    margin-bottom: 5px;
+}
+
+#a_savoir_avant_l_inscription p {
+    margin-top: 5px;
+}
+
+#modalites_inscription li {
+    margin-bottom: 5px;
+}
+
+#tarifs_2025_2026 td {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+

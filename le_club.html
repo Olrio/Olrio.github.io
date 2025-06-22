@@ -103,8 +103,12 @@ Ils assurent la gestion quotidienne du club et l’organisation des évènements
 
         <div class="link_back_to_top"><a href="#top">Retour en haut de la page</a></div>
 
-        <footer>
-            <div>Pour nous contacter: Les Enfants de Cholet - 48, rue des Bons Enfants - 49300 CHOLET - Tél.: 02 41 75 54 91 - Mail: <a href="mailto:enfcholetgym@free.fr">enfcholetgym@free.fr</a></div>
+        <footer id="footer">
         </footer>
+        <script>
+            $(document).ready(function () {
+                $("#footer").load("footer.html");
+                });
+        </script>
     </body>
 </html>

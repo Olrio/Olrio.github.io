@@ -23,10 +23,10 @@
                     Pour découvrir une activité, quoi de mieux que l’essayer ?
                 </p>
                 <p>
-                    Les entraîneurs proposent des séances d’essai durant la première semaine de juin.
+                    Les entraîneurs proposent des <a href="./media/Essais_2025.pdf">séances d’essai</a> durant la première semaine de juin.
                 </p>
                 <p>
-                    Ces séances, gratuites et sans engagement, permettent de tester nos activités. Les places sont limitées et les réservations sont indispensables dès maintenant par mail ou téléphone en précisant les noms, prénom et date de naissance du futur gymnaste, ainsi que la discipline désirée.
+                    Ces séances, gratuites et sans engagement, permettent de tester nos activités. Les places sont limitées et les <u>réservations sont indispensables dès maintenant</u> par <a href="mailto:enfcholetgym@free.fr">mail</a> ou téléphone en précisant les noms, prénom et date de naissance du futur gymnaste, ainsi que la discipline désirée.
                 </p>
             </div>
             <div class="article">
@@ -321,8 +321,12 @@
             <div id="link_to_mentions_legales"><a href="./mentions_legales.html">Mentions légales</a></div>
         </main>
 
-        <footer>
-            <div><span style="color: #B1C900;"><b>Pour nous contacter: </b></span> Les Enfants de Cholet - 48, rue des Bons Enfants - 49300 CHOLET - Tél.: 02 41 75 54 91 - Mail: <a href="mailto:enfcholetgym@free.fr">enfcholetgym@free.fr</a></div>
+        <footer id="footer">
         </footer>
+        <script>
+            $(document).ready(function () {
+                $("#footer").load("footer.html");
+                });
+        </script>
     </body>
 </html>

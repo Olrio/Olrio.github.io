@@ -322,3 +322,24 @@ footer {
     padding-left: 20px;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -300px;
+    visibility: hidden;
+}
+
+.arrows_nav_archives {
+    margin-bottom: 20px;
+}
+
+.left_arrow, .right_arrow {
+    font-size: 50px;
+    color: #009DE0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.arrows_nav_archives a {
+    text-decoration: none;
+}

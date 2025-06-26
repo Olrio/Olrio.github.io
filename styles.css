@@ -7,19 +7,25 @@
     height: 428px;
 }
 
-#photo_finales_departementales {
+#photo_finales_departementales, #Champ_France_indiv, .GR_France {
     display: flex;
     justify-content: center;
 }
 
-#photo_finales_departementales img {
+#photo_finales_departementales img, #Champ_France_indiv img, .GR_France img {
     margin-bottom: 10px;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
 }
 
-#Champ_France_indiv {
-    display: flex;
-    width: 60%;
-    justify-content: center;
+.GR_France img {
+    margin: 5px 50px;
+    width: 100%;
+    max-width: 280px;
+    min-width: 120px;
+    height: 100%;
+    z-index: 0;
 }
 
 .separator{
@@ -31,32 +37,235 @@
 
 .GR_France {
     display: flex;
+    width: 100%;
+    height: auto;
 }
 
-.GR_photo1 {
-    width: 20%;
-    justify-content: right;
-    margin-left: 15%;
-    height: 140px;
+#GR17 {
+    position: relative;
+    left:10px;
+}
+
+#GR13 {
+    position: relative;
+    right:15px;
 }
 
 .GR_texte2 {
     margin: auto;
-    padding-top: 15px;
-    width: 30%;
+    padding-top: 5px;
+    width: 40%;
     text-align: center;
-    justify-content: center;
     height: 140px;
     }
 
-.GR_photo3 {
-    width: 20%;
-    margin-right: 15%;
-    height: 140px;
+#champ_France_GAM, #champ_France_GAF_equipe {
+    display: flex;
 }
 
-#Champ_France_GAM {
+#champ_France_GAM img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+#resultats_mars_2025, #recompenses_Ponts_de_Ce {
+    display: flex;
+    justify-content: center;
+}
+
+#resultats_mars_2025 img {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+}
+
+#recompenses_Ponts_de_Ce img {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+}
+
+#fevrier9_affiche {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+#fevrier9_groupe {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+#fevrier9_affiche img{
+    width: 100%;
+    height: 100%;
+    max-width: 265px;
+}
+
+#fevrier9_groupe img{
+    width: 100%;
+    height: 100%;
+    max-width: 795px;
+}
+
+#champ_France_GAF_equipe img {
+    width: 100%;
+    height: 100%;
+    max-width: 850px;
+    min-width: 400px;
+    margin-right: 10px;
+}
+
+#champ_France_GAF_equipe p {
+    width: 40%;
+}
+
+#melissa_et_les_petites {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
+
+.fevrier9_bas {
+display: flex;
+}
+
+#texte_9fevrier {
+    width: 100%;
+}
+
+#melissa_et_les_petites img {
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#dept_25_25_janvier {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+#juges_GR {
+    display: flex;
+    justify-content: center;
+}
+
+#dept_25_25_janvier img {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 325px;
+    height: 100%;
+}
+
+#juges_GR img {
+    width: 100%;
+    max-width: 750px;
+    margin-bottom: 10px;
+}
+
+#photo_gala_2024 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+#photo_gala_2024 img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.telethon {
+    display: flex;
+    justify-content: center;
+}
+
+.telethon img {
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+
+#formation_des_juges {
+    display: flex;
+    justify-content: center;
+}
+
+#formation_des_juges img {
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 980px;
+    margin-bottom: 10px;
+}
+
+#cholet_reve_de_sport {
+    display: flex;
+    justify-content: center;
+}
+
+#cholet_reve_de_sport img {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+}
+
+#saison_2024_2025_presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+#saison_2024_2025_presentation ul {
+    width: 40%;
+    min-width: 300px;
     margin-right: 15px;
+}
+
+#bourse_aux_equipements {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+}
+
+#bourse_aux_equipements img {
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+#medley {
+    display: flex;
+    justify-content: center;
+}
+
+#medley img {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+
+#archives_annuelles th, #archives_annuelles tr {
+    border: none;
+    padding-left: 20px;
 }
 
 #texte_ker_crea {
@@ -73,6 +282,8 @@
 
 .accueil_cote_a_cote {
     display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
 }
 
 nav {
@@ -112,6 +323,7 @@ header {
     height: 300px;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px solid #e91313;
+    z-index: 1;
 }
 
 table {
@@ -251,6 +463,7 @@ body:has(#carousel_container:hover) #carousel {
     left:5px;
     background-color: #009DE0;
     color: #ffffff;
+    z-index: 2;
 }
 
 .presentation_du_club {
@@ -280,6 +493,7 @@ h4 {
 }
 
 .article {
+    display:block;
     border-left: 2px solid #ef850d;
     border-width: 50%;
     border-bottom: 2px solid #ef850d;
@@ -342,4 +556,230 @@ footer {
 
 .arrows_nav_archives a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  #patchwork_header {
+    display: none;
+  };
+
+  #logo_club img {
+  height: 60px;
+  };
+
+  #logo_club {
+  width: 90px;
+  height: 59px;
+  overflow: hidden;
+  };
+
+  #logo1 {
+  width: 177px;
+  height: 50px;
+  };
+
+  #logo2 {
+  width: 50px;
+  height: 50px;
+  };
+
+  #logo3 {
+  width: 71px;
+  height: 50px;
+  };
+
+  #logo4 {
+  width: 143px;
+  height: 50px;
+  };
+
+  #logo5 {
+  width: 147px;
+  height: 50px;
+  };
+
+  #logo6 {
+  width: 72px;
+  height: 50px;
+  };
+
+  #logo7 {
+  width: 184px;
+  height: 50px;
+  };
+
+  #logo8 {
+  width: 104px;
+  height: 50px;
+  };
+
+  #logo9 {
+  width: 169px;
+  height: 50px;
+  };
+
+  #logo10 {
+  width: 99px;
+  height: 50px;
+  };
+
+  #logo11 {
+  width: 135px;
+  height: 50px;
+  };
+
+  #logo12 {
+  width: 50px;
+  height: 50px;
+  };
+
+  #logo13 {
+  width: 143px;
+  height: 50px;
+  };
+
+  #logo14 {
+  width: 34px;
+  height: 50px;
+  };
+
+  #logo15 {
+  width: 52px;
+  height: 50px;
+  };
+
+  #logo16 {
+  width: 100px;
+  height: 50px;
+  };
+
+  #logo17 {
+  width: 39px;
+  height: 50px;
+  };
+
+  #carousel_container {
+  top: 5px;
+  height: 50px;
+  };
+
+  #carousel {
+  animation-duration: 40s;
+  top: 0;
+  height: 50px;
+  };
+
+  @keyframes scroll-left {
+            0% {
+                transform: translateX(100vw);
+            }
+
+            100% {
+                transform: translateX(-1850px);
+            }
+        };
+
+  #page_name {
+  position: fixed;
+  transform: scale(0.5);
+  top: 60px;
+  left: -100px;
+  };
+
+  #logo_FFGym {
+  position: fixed;
+  transform: scale(0.5);
+  top: 70px;
+  left: 170px;
+  };
+
+  #logo_label_BabyGym {
+  position: fixed;
+  transform: scale(0.5);
+  top: 55px;
+  left: 240px;
+  };
+
+  #Facebook_link {
+  position: fixed;
+  transform: scale(0.5);
+  top: 55px;
+  left: 295px;
+  };
+
+  #Instagram_link {
+  position: fixed;
+  transform: scale(0.5);
+  top: 55px;
+  left: 350px;
+  };
+
+  #MAJ {
+  position: fixed;
+  transform: scale(0.7);
+  top: 5px;
+  right: -40px;
+  };
+
+  #menu {
+  transform: scalex(0.7);
+  height: 50px;
+  position: fixed;
+  top: 120px;
+  left: -60px;
+  };
+
+  .nav_button {
+  height:50px;
+  width: 180px;
+  font-weight: bold;
+  };
+
+  #header {
+  height: 180px;
+  };
+
+  main {
+  margin-top: 180px;
+  };
+
+  .GR_France, #champ_France_GAM, #champ_France_GAF_equipe {
+  display: block;
+  text-align: center;
+  };
+
+  #champ_France_GAM img {
+  width: 50vw;
+};
+
+  #GR13, #GR17 {
+  width: 30vw;
+  position: relative;
+  left: 15px;
+  right: 15px;
+  };
+
+  .GR_texte2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  };
+
+  #champ_France_GAF_equipe p {
+  width: 100%;
+  };
+
+  .article_champignon_Turpault {
+      display: block;
+  };
+
+  #Salle_Turpault_champignons_photo {
+  display: flex;
+  justify-content: center;
+  };
+
+  .fevrier9_bas {
+   display: block;
+};
+
 }

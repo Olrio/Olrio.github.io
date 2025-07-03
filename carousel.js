@@ -24,3 +24,13 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+page = document.getElementById('page_name')
+console.log(page.textContent)
+
+if (page.textContent != 'Accueil') {
+console.log('pas accueil')
+document.getElementById('carousel').style.visibility = 'hidden'
+} else {
+console.log('oui, accueil')
+}

@@ -25,12 +25,9 @@ function dragElement(elmnt) {
   }
 }
 
+// This part of script disable visibility of carousel on pages other than accueil
 page = document.getElementById('page_name')
-console.log(page.textContent)
 
 if (page.textContent != 'Accueil') {
-console.log('pas accueil')
 document.getElementById('carousel').style.visibility = 'hidden'
-} else {
-console.log('oui, accueil')
 }

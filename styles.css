@@ -1,3 +1,8 @@
+.reg_poussines_text p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #photo_licence_supermarche {
     padding: 20px 20px 10px 20px;
 }
@@ -561,113 +566,113 @@ footer {
 @media only screen and (max-width: 1080px) {
   #patchwork_header {
     display: none;
-  };
+  }
 
   #logo_club img {
   height: 60px;
-  };
+  }
 
   #logo_club {
   width: 90px;
   height: 59px;
   overflow: hidden;
-  };
+  }
 
   #logo1 {
   width: 177px;
   height: 50px;
-  };
+  }
 
   #logo2 {
   width: 50px;
   height: 50px;
-  };
+  }
 
   #logo3 {
   width: 71px;
   height: 50px;
-  };
+  }
 
   #logo4 {
   width: 143px;
   height: 50px;
-  };
+  }
 
   #logo5 {
   width: 147px;
   height: 50px;
-  };
+  }
 
   #logo6 {
   width: 72px;
   height: 50px;
-  };
+  }
 
   #logo7 {
   width: 184px;
   height: 50px;
-  };
+  }
 
   #logo8 {
   width: 104px;
   height: 50px;
-  };
+  }
 
   #logo9 {
   width: 169px;
   height: 50px;
-  };
+  }
 
   #logo10 {
   width: 99px;
   height: 50px;
-  };
+  }
 
   #logo11 {
   width: 135px;
   height: 50px;
-  };
+  }
 
   #logo12 {
   width: 50px;
   height: 50px;
-  };
+  }
 
   #logo13 {
   width: 143px;
   height: 50px;
-  };
+  }
 
   #logo14 {
   width: 34px;
   height: 50px;
-  };
+  }
 
   #logo15 {
   width: 52px;
   height: 50px;
-  };
+  }
 
   #logo16 {
   width: 100px;
   height: 50px;
-  };
+  }
 
   #logo17 {
   width: 39px;
   height: 50px;
-  };
+  }
 
   #carousel_container {
   top: 5px;
   height: 50px;
-  };
+  }
 
   #carousel {
   animation-duration: 40s;
   top: 0;
   height: 50px;
-  };
+  }
 
   @keyframes scroll-left {
             0% {
@@ -677,49 +682,49 @@ footer {
             100% {
                 transform: translateX(-1850px);
             }
-        };
+        }
 
   #page_name {
   position: fixed;
   transform: scale(0.5);
   top: 60px;
   left: -100px;
-  };
+  }
 
   #logo_FFGym {
   position: fixed;
   transform: scale(0.5);
   top: 70px;
   left: 170px;
-  };
+  }
 
   #logo_label_BabyGym {
   position: fixed;
   transform: scale(0.5);
   top: 55px;
   left: 240px;
-  };
+  }
 
   #Facebook_link {
   position: fixed;
   transform: scale(0.5);
   top: 55px;
   left: 295px;
-  };
+  }
 
   #Instagram_link {
   position: fixed;
   transform: scale(0.5);
   top: 55px;
   left: 350px;
-  };
+  }
 
   #MAJ {
   position: fixed;
   transform: scale(0.7);
   top: 5px;
   right: -40px;
-  };
+  }
 
   #menu {
   transform: scalex(0.7);
@@ -727,59 +732,59 @@ footer {
   position: fixed;
   top: 120px;
   left: -60px;
-  };
+  }
 
   .nav_button {
   height:50px;
   width: 180px;
   font-weight: bold;
-  };
+  }
 
   #header {
   height: 180px;
-  };
+  }
 
   main {
   margin-top: 180px;
-  };
+  }
 
-  .GR_France, #champ_France_GAM, #champ_France_GAF_equipe {
+  .GR_France, #champ_France_GAM, #champ_France_GAF_equipe, .reg_poussines {
   display: block;
   text-align: center;
-  };
+  }
 
   #champ_France_GAM img {
   width: 50vw;
-};
+  }
 
   #GR13, #GR17 {
   width: 30vw;
   position: relative;
   left: 15px;
   right: 15px;
-  };
+  }
 
   .GR_texte2 {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
-  };
+  }
 
   #champ_France_GAF_equipe p {
   width: 100%;
-  };
+  }
 
   .article_champignon_Turpault {
       display: block;
-  };
+  }
 
   #Salle_Turpault_champignons_photo {
   display: flex;
   justify-content: center;
-  };
+  }
 
   .fevrier9_bas {
    display: block;
-};
+}
 
 }

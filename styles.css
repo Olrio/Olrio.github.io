@@ -358,7 +358,7 @@ tr, th {
     overflow: hidden;
     background-color: #ffffff;
     animation: scroll-left 20s linear infinite;
-    z-index: 1;
+    z-index: 0;
 }
 
 @keyframes scroll-left {
@@ -381,7 +381,6 @@ body:has(#carousel_container:hover) #carousel {
     width: 623px;
     position: absolute;
     left: 500px;
-    top: 0;
 }
 
 .logos {
@@ -447,7 +446,7 @@ body:has(#carousel_container:hover) #carousel {
     height: 80px;
 }
 
-#logo_club, #logo_club img {
+#logo_club {
     z-index: 2;
     position: absolute;
     left: 0;
